@@ -1,0 +1,35 @@
+{
+  "name": "blaze",
+  "version": "0.1.0",
+  "description": "BlazePvPs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "discordbot"
+  ],
+  "author": "Allow",
+  "license": "MIT",
+  "dependencies": {
+    "discord": "^0.8.2",
+    "discord.js": "^11.4.2",
+    "express": "^4.16.4",
+    "opusscript": "^0.0.6",
+    "simple-youtube-api": "^5.0.2",
+    "uws": "^99.0.0",
+    "ytdl-core": "^0.25.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.0.0",
+    "eslint-config-aqua": "^1.0.0"
+  },
+  "eslintConfig": {
+    "extends": "aqua",
+    "rules": {
+      "no-console": 0
+    }
+  }
+}
